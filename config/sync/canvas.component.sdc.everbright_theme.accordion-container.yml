@@ -1,0 +1,23 @@
+uuid: b714ea9a-2b46-49bb-951c-6492731130ce
+langcode: en
+status: true
+dependencies:
+  theme:
+    - everbright_theme
+_core:
+  default_config_hash: lL0vhTtSmpODd2mfQ_rJEIgfi8HM3rg6ZdtOxPJTr8w
+active_version: 6d6367123c15a82a
+versioned_properties:
+  active:
+    settings:
+      prop_field_definitions: {  }
+    fallback_metadata:
+      slot_definitions:
+        accordion_content:
+          title: 'Accordion content'
+          description: 'Only one of collapsible sections added can be open at a time.'
+label: 'Accordion container'
+id: sdc.everbright_theme.accordion-container
+provider: everbright_theme
+source: sdc
+source_local_id: 'everbright_theme:accordion-container'
