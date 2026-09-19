@@ -1,6 +1,6 @@
-uuid: 642d4fd4-4721-40d3-87a2-9f813a85d36d
+uuid: 94d2e9da-8a0f-4a15-bdcb-7af46fb27529
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - project_browser

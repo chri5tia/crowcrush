@@ -1,23 +1,12 @@
-uuid: 9e19b5d6-bf8e-4454-afe3-19af60016fd4
+uuid: 9a58b84d-c0a0-48e7-83e7-191d64c94e47
 langcode: en
 status: false
 dependencies:
   module:
     - system
-_core:
-  default_config_hash: eMvyFBkUG8V0aN7krp7_0ojmnr_hTmVYOWzIMjEzHrY
 active_version: 1609d44df6c8b26a
 versioned_properties:
   active:
-    settings:
-      default_settings:
-        id: system_messages_block
-        label: Messages
-        label_display: '0'
-        provider: system
-    fallback_metadata:
-      slot_definitions: null
-  0fd5234097704a5d:
     settings:
       default_settings:
         id: system_messages_block

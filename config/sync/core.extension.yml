@@ -12,9 +12,9 @@ module:
   canvas: 0
   canvas_page_template_component: 0
   captcha: 0
-  checklistapi: 0
   ckeditor5: 0
   coffee: 0
+  config: 0
   content_moderation: 0
   contextual: 0
   crop: 0
@@ -38,7 +38,6 @@ module:
   eca_user: 0
   editor: 0
   field: 0
-  field_group: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -48,6 +47,7 @@ module:
   gin_toolbar: 0
   honeypot: 0
   image: 0
+  inline_form_errors: 0
   jquery_ui: 0
   jquery_ui_resizable: 0
   klaro: 0
@@ -64,12 +64,8 @@ module:
   menu_link_attributes: 0
   menu_link_content: 0
   menu_ui: 0
-  metatag: 0
-  metatag_open_graph: 0
-  metatag_twitter_cards: 0
   modeler_api: 0
   mysql: 0
-  mysql57: 0
   navigation: 0
   navigation_extra_tools: 0
   node: 0
@@ -85,8 +81,6 @@ module:
   sam: 0
   scheduler: 0
   scheduler_content_moderation_integration: 0
-  seo_checklist: 0
-  simple_sitemap: 0
   svg_image: 0
   symfony_mailer_lite: 0
   system: 0
@@ -95,26 +89,17 @@ module:
   taxonomy: 0
   text: 0
   token: 0
-  token_or: 0
   trash: 0
-  ui_icons: 0
-  ui_icons_field: 0
-  ui_icons_menu: 0
-  ui_icons_picker: 0
   update: 0
   user: 0
   view_password: 0
   views_ui: 0
-  webform: 0
-  webform_ui: 0
   workflows: 0
-  yoast_seo: 0
   pathauto: 1
   views: 10
 theme:
   canvas_stark: 0
   claro: 0
-  stark: 0
   easy_email_theme: 0
-  everbright_theme: 0
+  mercury: 0
   gin: 0

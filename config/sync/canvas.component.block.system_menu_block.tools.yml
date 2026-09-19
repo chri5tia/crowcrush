@@ -1,4 +1,4 @@
-uuid: 0123bb7e-7c05-43ae-8878-66045779a36f
+uuid: b5165114-3ca7-4596-97b8-26bca80b01ce
 langcode: en
 status: false
 dependencies:
@@ -6,23 +6,9 @@ dependencies:
     - system.menu.tools
   module:
     - system
-_core:
-  default_config_hash: rADGpHXX4dXj2qxVxc23YD372uFV6HtiOZXIgNwI9Ak
 active_version: 9236b9ed688a599e
 versioned_properties:
   active:
-    settings:
-      default_settings:
-        id: 'system_menu_block:tools'
-        label: Tools
-        label_display: '0'
-        provider: system
-        level: 1
-        depth: null
-        expand_all_items: false
-    fallback_metadata:
-      slot_definitions: null
-  7a9e0103f91cf338:
     settings:
       default_settings:
         id: 'system_menu_block:tools'

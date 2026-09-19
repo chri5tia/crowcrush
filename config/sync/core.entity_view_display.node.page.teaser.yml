@@ -1,4 +1,4 @@
-uuid: f7749ddf-2d80-41d0-a031-4a3aa23f94c5
+uuid: 3d394b19-ad01-4c4c-b424-f7577d413319
 langcode: en
 status: true
 dependencies:
@@ -7,16 +7,12 @@ dependencies:
     - field.field.node.page.field_content
     - field.field.node.page.field_description
     - field.field.node.page.field_featured_image
-    - field.field.node.page.field_seo_analysis
-    - field.field.node.page.field_seo_description
-    - field.field.node.page.field_seo_image
-    - field.field.node.page.field_seo_title
     - field.field.node.page.field_tags
     - node.type.page
   module:
     - user
 _core:
-  default_config_hash: PkSVqE4R4Pj8isAA-rjxWWTUrmsoPFPLMoH4lXEQ0Z0
+  default_config_hash: EZxW-mE4igwA7r5KOzTWEZW5tp4tP9AInlgYoq1E2b0
 id: node.page.teaser
 targetEntityType: node
 bundle: page
@@ -41,9 +37,5 @@ content:
 hidden:
   content_moderation_control: true
   field_content: true
-  field_seo_analysis: true
-  field_seo_description: true
-  field_seo_image: true
-  field_seo_title: true
   field_tags: true
   links: true

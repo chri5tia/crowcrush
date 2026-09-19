@@ -1,15 +1,13 @@
-uuid: 9cd1ff9a-0edb-4c4b-a696-ee74693a8961
+uuid: 0e04769a-c1f3-436a-81e2-2740363b251f
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.article
     - node.type.page
-    - node.type.project
   module:
     - content_moderation
 _core:
-  default_config_hash: HMTRMBHhGQWQey0j0C4YvXEjGrO5Nf9035mYh4K8X_0
+  default_config_hash: jgHGSmFwMs65r6dnL-g6tY3pvKMBmMgU1sDTnOu7Wsc
 id: basic_editorial
 label: Basic
 type: content_moderation
@@ -55,7 +53,5 @@ type_settings:
       weight: 1
   entity_types:
     node:
-      - article
       - page
-      - project
   default_moderation_state: draft

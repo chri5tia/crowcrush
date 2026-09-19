@@ -1,4 +1,4 @@
-uuid: 0e1aaa01-92cc-46ac-9043-aaf93b6cba18
+uuid: a9093acd-fcac-4783-a13c-08d2ffcf1241
 langcode: en
 status: false
 dependencies:
@@ -6,22 +6,9 @@ dependencies:
     - views.view.publishing_content
   module:
     - views
-_core:
-  default_config_hash: gDhvcwGGDvZksHvw9dI0DB_Eb8KD99UODn1rnlurefI
 active_version: 3ddcc9429928c501
 versioned_properties:
   active:
-    settings:
-      default_settings:
-        id: 'views_block:publishing_content-block_scheduled'
-        label: Scheduled
-        label_display: '0'
-        provider: views
-        views_label: ''
-        items_per_page: null
-    fallback_metadata:
-      slot_definitions: null
-  246c02b4b2c6742d:
     settings:
       default_settings:
         id: 'views_block:publishing_content-block_scheduled'

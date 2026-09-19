@@ -1,4 +1,4 @@
-uuid: 96256c93-5357-4e86-9184-af8c3c843fb0
+uuid: 0cd808c3-61a0-4e10-81b4-1e79b42a94b2
 langcode: en
 status: true
 dependencies:
@@ -7,16 +7,12 @@ dependencies:
     - field.field.node.page.field_content
     - field.field.node.page.field_description
     - field.field.node.page.field_featured_image
-    - field.field.node.page.field_seo_analysis
-    - field.field.node.page.field_seo_description
-    - field.field.node.page.field_seo_image
-    - field.field.node.page.field_seo_title
     - field.field.node.page.field_tags
     - node.type.page
   module:
     - user
 _core:
-  default_config_hash: bvUOhlRVdOltpHDX2Gylpdc_BXbiRHmIbSz1iTOlsmY
+  default_config_hash: HDUzgmks4qvAN4PJRHQOFi3_sUcLg_zivOOMnCb1ER4
 id: node.page.card
 targetEntityType: node
 bundle: page
@@ -41,9 +37,5 @@ content:
 hidden:
   content_moderation_control: true
   field_content: true
-  field_seo_analysis: true
-  field_seo_description: true
-  field_seo_image: true
-  field_seo_title: true
   field_tags: true
   links: true

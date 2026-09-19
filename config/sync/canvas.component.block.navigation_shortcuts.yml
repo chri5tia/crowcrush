@@ -1,23 +1,12 @@
-uuid: bb2d2595-59f5-42d8-9cbb-2bda6b1239ce
+uuid: 3ab3eb80-c37b-4729-8b3c-db863a3178bb
 langcode: en
 status: false
 dependencies:
   module:
     - navigation
-_core:
-  default_config_hash: KbFiWVU0Pege3ngT0CNS2l9NN3CxoUBbMiyo4ZsCLXs
 active_version: a2ddb9f467280871
 versioned_properties:
   active:
-    settings:
-      default_settings:
-        id: navigation_shortcuts
-        label: 'Navigation Shortcuts'
-        label_display: '0'
-        provider: navigation
-    fallback_metadata:
-      slot_definitions: null
-  2891751bf7069a8f:
     settings:
       default_settings:
         id: navigation_shortcuts

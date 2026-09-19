@@ -1,14 +1,14 @@
 _core:
   default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
 langcode: en
-uuid: bf67b6ef-d34d-42f8-8bff-3963460831bf
-name: 'Crow Crush'
-mail: admin@crowcrush.com
+uuid: c381436a-f767-45b3-afac-e6b0f7fa8c11
+name: 'Drush Site-Install'
+mail: admin@example.com
 slogan: ''
 page:
   403: /user/login
-  404: /page/2
-  front: /home
+  404: ''
+  front: /page/1
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en

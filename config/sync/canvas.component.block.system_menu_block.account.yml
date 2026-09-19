@@ -1,4 +1,4 @@
-uuid: e5bad0a8-54b1-4e12-9faa-ce74a60ca2b1
+uuid: 121a56ee-5f69-42a8-9691-4d926dafcf45
 langcode: en
 status: false
 dependencies:
@@ -6,23 +6,9 @@ dependencies:
     - system.menu.account
   module:
     - system
-_core:
-  default_config_hash: 9NUUDQFTsEx3a7LMn58Xo4TnTMv4t6L4BF-m9KRSd-k
 active_version: bc0ea0dab4832c55
 versioned_properties:
   active:
-    settings:
-      default_settings:
-        id: 'system_menu_block:account'
-        label: 'User account menu'
-        label_display: '0'
-        provider: system
-        level: 1
-        depth: null
-        expand_all_items: false
-    fallback_metadata:
-      slot_definitions: null
-  4b3fb59b8eadb12d:
     settings:
       default_settings:
         id: 'system_menu_block:account'

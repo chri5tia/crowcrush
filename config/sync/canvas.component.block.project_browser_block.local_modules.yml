@@ -1,28 +1,12 @@
-uuid: 78ce996d-994a-4e74-8dea-53a54ccabb1a
+uuid: 04e676ed-11cd-4eaf-9381-10e01ae6bfde
 langcode: en
 status: false
 dependencies:
   module:
     - project_browser
-_core:
-  default_config_hash: u8XDFMPj_n5F1J3EmsLqJ7ngu51z-aCgmveHuNFi9PI
 active_version: 9eba06ccb21f6648
 versioned_properties:
   active:
-    settings:
-      default_settings:
-        id: 'project_browser_block:local_modules'
-        label: 'Local modules'
-        label_display: '0'
-        provider: project_browser
-        paginate: true
-        page_sizes: '12, 24, 36, 48'
-        sort_options: null
-        default_sort: null
-        filters: null
-    fallback_metadata:
-      slot_definitions: null
-  5817b1630ad267fd:
     settings:
       default_settings:
         id: 'project_browser_block:local_modules'

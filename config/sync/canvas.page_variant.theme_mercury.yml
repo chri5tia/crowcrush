@@ -1,0 +1,82 @@
+uuid: 0109400c-8047-49db-ac41-8b117c972c58
+langcode: en
+status: true
+dependencies:
+  config:
+    - canvas.component.block.system_branding_block
+    - canvas.component.block.system_menu_block.footer
+    - canvas.component.block.system_menu_block.main
+    - canvas.component.marker.page_content
+    - canvas.component.sdc.mercury.footer
+    - canvas.component.sdc.mercury.navbar
+    - canvas.component.theme_page_template.mercury
+  module:
+    - options
+id: theme_mercury
+label: 'Mercury theme'
+description: null
+component_tree:
+  17db3c39-db0f-4ca5-a2ac-59c6d7021f60:
+    uuid: 17db3c39-db0f-4ca5-a2ac-59c6d7021f60
+    component_id: theme_page_template.mercury
+    component_version: 15fe1e06320b1035
+    inputs: {  }
+  0e6610c0-edcf-4e38-b890-30fdf3646411:
+    parent_uuid: 17db3c39-db0f-4ca5-a2ac-59c6d7021f60
+    slot: content
+    uuid: 0e6610c0-edcf-4e38-b890-30fdf3646411
+    component_id: marker.page_content
+    component_version: 3b12c0b99a6caecc
+    inputs: {  }
+  bd25d2aa-d623-479e-86c7-89ecffdd3dfa:
+    parent_uuid: 17db3c39-db0f-4ca5-a2ac-59c6d7021f60
+    slot: footer
+    uuid: bd25d2aa-d623-479e-86c7-89ecffdd3dfa
+    component_id: sdc.mercury.footer
+    component_version: d696cea1796b650e
+    inputs:
+      align: true
+  c792f1a5-fd27-40de-8d91-12b2ced91e61:
+    parent_uuid: bd25d2aa-d623-479e-86c7-89ecffdd3dfa
+    slot: footer_utility_first
+    uuid: c792f1a5-fd27-40de-8d91-12b2ced91e61
+    component_id: block.system_menu_block.footer
+    component_version: 075503dbc228a45c
+    inputs:
+      label: Footer
+      label_display: '0'
+      level: 1
+      depth: null
+      expand_all_items: false
+  3b448d2f-f191-44cb-8189-2362dbf3fe18:
+    parent_uuid: 17db3c39-db0f-4ca5-a2ac-59c6d7021f60
+    slot: header
+    uuid: 3b448d2f-f191-44cb-8189-2362dbf3fe18
+    component_id: sdc.mercury.navbar
+    component_version: 3149f199d66bbc29
+    inputs:
+      menu_align: right
+  032b3150-7557-468a-ba40-d1c8fdc27f11:
+    parent_uuid: 3b448d2f-f191-44cb-8189-2362dbf3fe18
+    slot: logo
+    uuid: 032b3150-7557-468a-ba40-d1c8fdc27f11
+    component_id: block.system_branding_block
+    component_version: 7d528e00f56b3abf
+    inputs:
+      label: 'Site branding'
+      label_display: '0'
+      use_site_logo: true
+      use_site_name: false
+      use_site_slogan: false
+  6d13ceff-24ca-47d3-9a3b-10bc48480618:
+    parent_uuid: 3b448d2f-f191-44cb-8189-2362dbf3fe18
+    slot: navigation
+    uuid: 6d13ceff-24ca-47d3-9a3b-10bc48480618
+    component_id: block.system_menu_block.main
+    component_version: 322535c0078cf59c
+    inputs:
+      label: 'Main navigation'
+      label_display: '0'
+      level: 1
+      depth: null
+      expand_all_items: false

@@ -1,12 +1,10 @@
-uuid: 27f40dde-dd95-40bb-a958-2db47467d7f7
+uuid: b83c49a4-bea7-4200-81e3-7868aae6dd78
 langcode: en
 status: false
 dependencies:
   module:
     - navigation
     - options
-_core:
-  default_config_hash: wiVZUZp_VnWDg7zp5JC_hciqJqSifQyj0LmsLz5oh20
 active_version: f7072e7d10fc2cb1
 versioned_properties:
   active:

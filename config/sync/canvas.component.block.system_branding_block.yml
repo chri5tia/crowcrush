@@ -1,26 +1,12 @@
-uuid: 42d859b9-3b3b-43c1-ad9a-19344120e9d1
+uuid: 9562d015-1a05-4d2f-84a3-0adc2e8ef255
 langcode: en
 status: true
 dependencies:
   module:
     - system
-_core:
-  default_config_hash: bgq7iAd-EFW_uJYeBahWoUhCClLoMrVvBmKWC1Px0b8
 active_version: 7d528e00f56b3abf
 versioned_properties:
   active:
-    settings:
-      default_settings:
-        id: system_branding_block
-        label: 'Site branding'
-        label_display: '0'
-        provider: system
-        use_site_logo: true
-        use_site_name: true
-        use_site_slogan: true
-    fallback_metadata:
-      slot_definitions: null
-  b168140fdcaebae5:
     settings:
       default_settings:
         id: system_branding_block

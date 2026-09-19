@@ -1,23 +1,12 @@
-uuid: 444849fa-8228-4372-8899-0f2f74d8eac8
+uuid: 764b9962-8506-46a3-95c4-aef9654d581a
 langcode: en
 status: true
 dependencies:
   module:
     - system
-_core:
-  default_config_hash: z4zgmAKDZNTniCtZAWwRyE61VhdSZiqjYtacNqu80I0
 active_version: 0d7e961dd03aa710
 versioned_properties:
   active:
-    settings:
-      default_settings:
-        id: system_breadcrumb_block
-        label: Breadcrumbs
-        label_display: '0'
-        provider: system
-    fallback_metadata:
-      slot_definitions: null
-  ad6359c331fc7c45:
     settings:
       default_settings:
         id: system_breadcrumb_block

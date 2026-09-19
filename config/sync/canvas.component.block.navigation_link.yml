@@ -1,26 +1,12 @@
-uuid: c7f05e95-ba42-41d1-afba-85b214b75dc0
+uuid: ec91dee6-ec34-43de-b89e-df2ff43d7c76
 langcode: en
 status: false
 dependencies:
   module:
     - navigation
-_core:
-  default_config_hash: 1Nme6Uv-S5cs8Mqi5iaYQ4DqKftTBwBt2pE8NlaPH6I
 active_version: 444c38ca1400ebe9
 versioned_properties:
   active:
-    settings:
-      default_settings:
-        id: navigation_link
-        label: Link
-        label_display: '0'
-        provider: navigation
-        title: ''
-        uri: ''
-        icon_class: ''
-    fallback_metadata:
-      slot_definitions: null
-  6bff3fd95c9429fb:
     settings:
       default_settings:
         id: navigation_link
