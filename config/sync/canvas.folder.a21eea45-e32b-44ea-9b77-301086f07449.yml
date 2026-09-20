@@ -3,6 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - canvas.component.sdc.crowcrush.accordion
+    - canvas.component.sdc.crowcrush.accordion-container
+    - canvas.component.sdc.crowcrush.footer
+    - canvas.component.sdc.crowcrush.grid
+    - canvas.component.sdc.crowcrush.group
+    - canvas.component.sdc.crowcrush.navbar
+    - canvas.component.sdc.crowcrush.section
     - canvas.component.sdc.mercury.accordion
     - canvas.component.sdc.mercury.accordion-container
     - canvas.component.sdc.mercury.footer
@@ -14,6 +21,13 @@ name: Layout
 configEntityTypeId: component
 weight: 0
 items:
+  - sdc.crowcrush.accordion
+  - sdc.crowcrush.accordion-container
+  - sdc.crowcrush.footer
+  - sdc.crowcrush.grid
+  - sdc.crowcrush.group
+  - sdc.crowcrush.navbar
+  - sdc.crowcrush.section
   - sdc.mercury.accordion
   - sdc.mercury.accordion-container
   - sdc.mercury.footer

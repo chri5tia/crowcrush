@@ -3,6 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - canvas.component.sdc.crowcrush.cta
+    - canvas.component.sdc.crowcrush.hero-billboard
+    - canvas.component.sdc.crowcrush.hero-side-by-side
     - canvas.component.sdc.mercury.cta
     - canvas.component.sdc.mercury.hero-billboard
     - canvas.component.sdc.mercury.hero-side-by-side
@@ -10,6 +13,9 @@ name: Hero
 configEntityTypeId: component
 weight: 0
 items:
+  - sdc.crowcrush.cta
+  - sdc.crowcrush.hero-billboard
+  - sdc.crowcrush.hero-side-by-side
   - sdc.mercury.cta
   - sdc.mercury.hero-billboard
   - sdc.mercury.hero-side-by-side
